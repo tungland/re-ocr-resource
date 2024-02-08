@@ -7,7 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+tqdm = "^4.66.1"
 
+
+[tool.poetry.group.dev.dependencies]
+lxml = "^5.0.0"
+beautifulsoup4 = "^4.12.2"
+pandas = "^2.1.4"
+numpy = "^1.26.2"
+matplotlib = "^3.8.2"
+tqdm = "^4.66.1"
+jupyter = "^1.0.0"
+black = {extras = ["jupyter"], version = "^23.12.1"}
 
 [build-system]
 requires = ["poetry-core"]
