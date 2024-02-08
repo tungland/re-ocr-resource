@@ -1,0 +1,3 @@
+package_data = {
+    "re_ocr_resource": ["py.typed"],
+}
